@@ -11,9 +11,9 @@
     "lib"
   ],
   "scripts": {
-    "prepare": "",
     "update": "node ./src/update.js",
-    "build": "node ./src/index.js && yarn gulp",
+    "sprite": "node ./src/index.js",
+    "build": "yarn update && yarn sprite && yarn gulp",
     "gulp": "gulp",
     "publish": "yarn build && npm publish"
   },

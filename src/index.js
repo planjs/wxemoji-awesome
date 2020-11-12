@@ -1,8 +1,12 @@
 const path = require('path');
+const fs = require('fs');
 const { generateSprite } = require('./sprite');
+const { deleteFile, copyFolder } = require('./utils')
 
-function sprite() {
-  return generateSprite(path.resolve(__dirname, './assets'));
+async function sprite() {
+  await generateSprite(path.resolve(__dirname, './assets'));
+  deleteFile(path.resolve(__dirname, './assets'));
+  fs.rmdirSync(path.resolve(__dirname, './assets'));
 }
 
 sprite();
