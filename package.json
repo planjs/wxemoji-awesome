@@ -1,0 +1,21 @@
+{
+  "name": "wxemoji-awesome",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "",
+    "build": "node ./src/index.js && yarn gulp",
+    "gulp": "gulp"
+  },
+  "dependencies": {
+    "images": "^3.2.3",
+    "gulp": "^4.0.2",
+    "gulp-css-format": "0.1.2",
+    "gulp4-run-sequence": "^1.0.1",
+    "gulp-rename": "^1.4.0"
+  }
+}
