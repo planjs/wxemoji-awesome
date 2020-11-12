@@ -1,7 +1,8 @@
 {
   "name": "wxemoji-awesome",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
+  "repository": "https://github.com/planjs/wxemoji-awesome",
   "keywords": [],
   "license": "ISC",
   "author": "",
@@ -10,7 +11,8 @@
     "prepare": "",
     "update": "node ./src/update.js",
     "build": "node ./src/index.js && yarn gulp",
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "publish": "yarn build && npm publish"
   },
   "dependencies": {
     "del": "^6.0.0",
