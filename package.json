@@ -1,12 +1,15 @@
 {
   "name": "wxemoji-awesome",
   "version": "0.0.2",
-  "description": "hgakei <846593490@qq.com>",
+  "description": "hgakei",
   "repository": "https://github.com/planjs/wxemoji-awesome",
   "keywords": [],
   "license": "ISC",
   "author": "",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "prepare": "",
     "update": "node ./src/update.js",
