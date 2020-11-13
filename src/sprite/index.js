@@ -83,8 +83,7 @@ function generateSprite(targetImagesDirPath) {
     `;
 
     simpleSprite.regions.forEach((item, index) => {
-      // const name = item.path.split('/').pop().replace('.png', '');
-      const name = filenameMap[item.path];
+      const name = (filenameMap[item.path] || '').replace('.png', '');
       let _imgCss = '';
 
       if (!name) {
