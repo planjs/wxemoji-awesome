@@ -1,21 +1,28 @@
 {
   "name": "wxemoji-awesome",
-  "version": "0.0.2",
-  "description": "hgakei",
-  "repository": "https://github.com/planjs/wxemoji-awesome",
-  "keywords": [],
-  "license": "ISC",
-  "author": "",
+  "version": "0.0.3",
+  "description": "css emoji awesomeness",
+  "keywords": ["emoji", "emoji-awesome"],
+  "license": "MIT",
+  "author": "hgakei <hgakei@163.com>",
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
+  "homepage": "https://github.com/planjs/wxemoji-awesome#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/planjs/wxemoji-awesome.git"
+  },
+  "bugs": {
+    "url": "https://github.com/planjs/wxemoji-awesome/issues"
+  },
   "scripts": {
     "update": "node ./src/update.js",
     "sprite": "node ./src/index.js",
     "build": "yarn update && yarn sprite && yarn gulp",
     "gulp": "gulp",
-    "publish": "yarn build && npm publish"
+    "publish": "npm publish"
   },
   "dependencies": {
     "del": "^6.0.0",
