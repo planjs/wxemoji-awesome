@@ -1,16 +1,17 @@
 {
   "name": "wxemoji-awesome",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "css emoji awesomeness",
   "keywords": [
     "emoji",
     "emoji-awesome"
   ],
-  "license": "MIT",
+  "license": "ISC",
   "author": "hgakei <hgakei@163.com>",
   "main": "lib/index.js",
   "files": [
-    "lib"
+    "lib",
+    "typings"
   ],
   "homepage": "https://github.com/planjs/wxemoji-awesome#readme",
   "repository": {
@@ -20,12 +21,12 @@
   "bugs": {
     "url": "https://github.com/planjs/wxemoji-awesome/issues"
   },
+  "typings": "typings/index.d.ts",
   "scripts": {
     "update": "node ./src/update.js",
     "sprite": "node ./src/index.js",
     "build": "yarn update && yarn sprite && yarn gulp",
-    "gulp": "gulp",
-    "publish": "npm publish"
+    "gulp": "gulp"
   },
   "dependencies": {
     "del": "^6.0.0",
