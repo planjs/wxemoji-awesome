@@ -72,7 +72,7 @@ function generateSprite(targetImagesDirPath) {
         font-size: 24px;
         vertical-align: middle;
         color: transparent !important;
-        background: url(../img/sprite.png);
+        background: url(img/sprite.png);
         background-size: 11000%;
         background-repeat: no-repeat;
         position: relative;

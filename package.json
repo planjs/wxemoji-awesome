@@ -1,8 +1,11 @@
 {
   "name": "wxemoji-awesome",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "css emoji awesomeness",
-  "keywords": ["emoji", "emoji-awesome"],
+  "keywords": [
+    "emoji",
+    "emoji-awesome"
+  ],
   "license": "MIT",
   "author": "hgakei <hgakei@163.com>",
   "main": "lib/index.js",
