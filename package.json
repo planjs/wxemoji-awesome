@@ -13,6 +13,7 @@
     "lib",
     "typings"
   ],
+  "sideEffects": false,
   "homepage": "https://github.com/planjs/wxemoji-awesome#readme",
   "repository": {
     "type": "git",
@@ -25,16 +26,19 @@
   "scripts": {
     "update": "node ./src/update.js",
     "sprite": "node ./src/index.js",
-    "build": "yarn update && yarn sprite && yarn gulp",
+    "prepublishOnly": "npm run release",
+    "release": "./scripts/release.sh",
+    "prepare": "yarn update && yarn sprite && yarn gulp",
     "gulp": "gulp"
   },
-  "dependencies": {
+  "devDependencies": {
     "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-css-format": "0.1.2",
     "gulp-rename": "^1.4.0",
     "gulp4-run-sequence": "^1.0.1",
     "images": "^3.2.3",
-    "request": "^2.88.2"
+    "request": "^2.88.2",
+    "standard-version": "^9.0.0"
   }
 }
