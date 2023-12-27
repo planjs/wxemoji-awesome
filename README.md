@@ -11,5 +11,5 @@ import "wxemoji-awesome/lib/index.css";
 ```
 
 ```html
-<i class="wxem wxem-wx-1"></i>
+<img class="wxem wxem-wx-1" alt="[微笑]" />
 ```
