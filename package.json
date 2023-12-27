@@ -1,6 +1,6 @@
 {
   "name": "wxemoji-awesome",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "css emoji awesomeness",
   "keywords": [
     "emoji",
@@ -24,11 +24,12 @@
   },
   "typings": "typings/index.d.ts",
   "scripts": {
+    "preinstall": "npx only-allow yarn",
     "update": "node ./src/update.js",
     "sprite": "node ./src/index.js",
     "prepublishOnly": "npm run release",
     "release": "./scripts/release.sh",
-    "prepare": "yarn update && yarn sprite && yarn gulp",
+    "prepare": "yarn gulp",
     "gulp": "gulp"
   },
   "devDependencies": {
