@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.10](https://github.com/planjs/wxemoji-awesome/compare/stable-0.0.9...stable-0.0.10) (2023-12-27)
+
+
+### Bug Fixes
+
+* update logic ([cae1b81](https://github.com/planjs/wxemoji-awesome/commit/cae1b811ce21744c09eeeef7f0b054237c1531bc))
+* update MD ([155b980](https://github.com/planjs/wxemoji-awesome/commit/155b9803214fe06f389115189eeca3f141f4b786))
+
 ### 0.0.9 (2023-12-27)
 
 
